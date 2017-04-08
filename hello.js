@@ -7,5 +7,5 @@ function greet(name) {
 function bye(name){
     console.log(b + ',' + name + '!');
 }
-exports.greet1 = greet;
-exports.bye1 = bye;
+exports.greet = greet;
+exports.bye = bye;
