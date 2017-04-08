@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceRoot}/files/write_text_file_async.js",
+            "program": "${workspaceRoot}/files/write_text_file_sync.js",
             "cwd": "${workspaceRoot}"
         },
         {
