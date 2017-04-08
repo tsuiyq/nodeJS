@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceRoot}/files/write_text_file_sync.js",
+            "program": "${workspaceRoot}/stream/copy_file.js",
             "cwd": "${workspaceRoot}"
         },
         {
