@@ -29,3 +29,10 @@ console.log('nextTick was set!');
 process.on('exit',function (code){
     console.log('about to exit with code: ' + code);
 });
+
+//判断执行环境:
+if (typeof(window) === 'undefined') {
+    console.log('node.js');    
+} else {
+    console.log('browser');
+}
