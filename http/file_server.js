@@ -5,7 +5,7 @@ var fs = require('fs'),
     url = require('url'),
     path = require('path'),
     http = require('http');
-var root = path.resolve(process.arg[2] || '.');
+var root = path.resolve(process.argv[2] || '.');
 
 console.log('Static root dir: ' + root);
 
@@ -16,7 +16,7 @@ var server = http.createServer(function (request,response){
         if (!err && stats.isFile()){
             console.log('200' + request.url);
             response.writeHead(200);
-            fs.createReadStream(filepath).pipe(reponse);
+            fs.createReadStream(filepath).pipe(response);
         } else {
             console.log('404' + request.url);
             response.writeHead(404);

@@ -1,0 +1,13 @@
+﻿命令行输入：node file_server.js /tianrun/node/http/static
+      或者：node d:/tianrun/node/http/file_server.js d:/tianrun/node/http/static
+            < 注意是/，不是DOS的\ >
+浏览器输入：127.0.0.1:8080/index.html
+
+命令行结果：
+      Static root dir: D:\tianrun\node\http\static
+      Server is running at http://127.0.0.1:8080/
+      200/index.html
+      200/js/jquery.min.js
+      200/css/uikit.min.css
+      200/fonts/fontawesome-webfont.woff2
+      
